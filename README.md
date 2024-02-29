@@ -117,3 +117,33 @@ Creating a sphere in Blender is a straightforward process. Here's how you can do
     - If you've significantly moved, rotated, or scaled your sphere, you might want to apply these transformations to reset the object's origin. With the sphere selected, press `Ctrl + A` and choose the transformations you want to apply (Location, Rotation, Scale).
 
 By following these steps, you should now have a sphere in your Blender scene which you can continue to edit, texture, and use within your project as needed.
+
+5. Create a plane in blender which is in the middle of 2 surfaces. You have to draw a plane in the middle of 2 surfaces of that 1 object.
+  
+Creating a plane exactly in the middle of two surfaces of a single object involves a few steps, especially if those surfaces are not parallel. I'll guide you through a method to achieve this:
+
+### Step 1: Select the Two Faces
+1. In Blender, select your object and enter Edit Mode (`Tab`).
+2. Select the two faces between which you want to place a plane. You can select faces by clicking on them while in Face Select mode (`3` on the keyboard if using Blender's default keymap, or click the face icon in the top corner of the 3D Viewport).
+
+### Step 2: Create the Midpoint Edges
+1. With the two faces selected, right-click to open the context menu and choose `Subdivide`. This will add vertices and edges dividing each face into smaller faces.
+2. Select the new edge loop created at the center of each of the original faces (these are the closest edges to the midpoint of your original faces).
+
+### Step 3: Create the Plane
+1. Use `Shift + S` and choose "Cursor to Selected" with the new central edges selected. This will place the 3D cursor exactly in the middle between these two edges.
+2. Now, go back to Object Mode (`Tab`), press `Shift + A` and add a new Plane.
+3. The plane will be created at the location of the 3D cursor, which is now in the middle between the two faces. However, it might not be oriented correctly according to your surfaces.
+
+### Step 4: Align the Plane
+1. To align the plane, you might need to rotate and resize it manually. In Edit Mode, you can use the `Rotate` (`R`) and `Scale` (`S`) commands to align the plane with the midpoint of the two surfaces.
+2. Alternatively, if you want the plane to align precisely with the orientation of one of the original faces, you could:
+   - Select one face of your object and enter Edit Mode.
+   - Press `Shift + Numpad 7`. This will align the view to the selected face.
+   - Go back to Object Mode, select the plane, and in Edit Mode, rotate and scale the plane to fit exactly between the two original faces based on your view.
+
+### Step 5: Fine-tuning
+- Adjust the plane's position and orientation as needed to ensure it sits exactly in the middle of the two surfaces. You may need to switch between different views and use snapping (`Shift + Tab`) to align things precisely.
+- Remember, if the two faces are not parallel, determining the "middle" can be more conceptual than geometric. You might decide based on the visual midpoint or other criteria relevant to your model.
+
+This method requires some manual adjustments because Blender doesn't have a direct feature for creating a plane exactly between two non-parallel surfaces. The exactness of the placement will depend on the initial position of the 3D cursor and your adjustments to the plane's orientation and size.
