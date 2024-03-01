@@ -98,28 +98,28 @@ Each of these methods has its own best use cases, and the right one to use will 
 Answer:
 Creating a sphere in Blender is a straightforward process. Here's how you can do it:
 
-- Start a New Blender Project**: Open Blender and start a new project.
+- Start a New Blender Project: Open Blender and start a new project.
 
-- Delete the Default Cube** (if present): In the 3D Viewport, you might see a default cube when you start a new project. To delete this, make sure it is selected (it should be highlighted in orange if it is), then press the `Delete` key or `X` key and confirm the deletion.
+- Delete the Default Cube (if present): In the 3D Viewport, you might see a default cube when you start a new project. To delete this, make sure it is selected (it should be highlighted in orange if it is), then press the `Delete` key or `X` key and confirm the deletion.
 
-- Add a Sphere**:
+- Add a Sphere:
     - Press `Shift + A` to open the Add menu in the 3D Viewport. This brings up a list of mesh objects you can add.
     - Navigate to `Mesh > UV Sphere` to add a standard UV sphere. Alternatively, you can choose `Mesh > Ico Sphere` for a sphere made of triangles instead of quads.
 
-- Adjust Sphere Settings** (Optional):
+- Adjust Sphere Settings (Optional):
     - Immediately after adding the sphere, you can adjust its properties in the bottom left corner of the 3D Viewport. If you don't see the options, click on the small arrow or press `F9` to expand the menu.
     - Here, you can change the number of segments and rings for a UV Sphere, or subdivisions for an Ico Sphere. Increasing these values will increase the sphere's detail and smoothness but also the number of vertices.
 
-- Position the Sphere** (If Needed):
+- Position the Sphere (If Needed):
     - With the sphere selected, you can move it by pressing `G` (grab), then moving your mouse. You can also constrain the movement to an axis by pressing `X`, `Y`, or `Z` after pressing `G`.
     - Scale the sphere by pressing `S` and moving your mouse. Again, you can constrain scaling to an axis by pressing `X`, `Y`, or `Z` after pressing `S`.
     - Rotate the sphere by pressing `R` and moving your mouse. Constrain rotation to an axis by pressing `X`, `Y`, or `Z` after pressing `R`.
 
-- Edit the Sphere** (If Required):
+- Edit the Sphere (If Required):
     - To modify the sphere further, switch to Edit Mode by pressing `Tab` or selecting Edit Mode from the mode dropdown menu in the top left corner of the 3D Viewport.
     - In Edit Mode, you can select vertices, edges, or faces to move, scale, extrude, or otherwise modify the shape of your sphere.
 
-- Apply Object Transformations** (Optional):
+- Apply Object Transformations (Optional):
     - If you've significantly moved, rotated, or scaled your sphere, you might want to apply these transformations to reset the object's origin. With the sphere selected, press `Ctrl + A` and choose the transformations you want to apply (Location, Rotation, Scale).
 
 By following these steps, you should now have a sphere in your Blender scene which you can continue to edit, texture, and use within your project as needed.
