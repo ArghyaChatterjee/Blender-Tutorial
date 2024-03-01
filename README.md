@@ -164,21 +164,21 @@ Duplicating a mesh in Blender is a straightforward process. Here's how you can d
 
 - Duplicating in Object Mode:
 
-  - Select the Mesh**: In the 3D Viewport, select the mesh object you wish to duplicate by clicking on it. Ensure you are in Object Mode (you can switch to Object Mode by pressing `Tab` or by selecting it from the mode dropdown in the top left corner of the viewport).
+  - Select the Mesh: In the 3D Viewport, select the mesh object you wish to duplicate by clicking on it. Ensure you are in Object Mode (you can switch to Object Mode by pressing `Tab` or by selecting it from the mode dropdown in the top left corner of the viewport).
 
-  - Duplicate the Mesh**: Press `Shift + D` to duplicate the selected object. Once you press these keys, the duplicate will “stick” to your mouse cursor.
+  - Duplicate the Mesh: Press `Shift + D` to duplicate the selected object. Once you press these keys, the duplicate will “stick” to your mouse cursor.
 
-  - Place the Duplicate**: Move the mouse to position the duplicate wherever you want. You can also snap it to a specific location or along an axis by moving the mouse and then clicking to confirm the position. If you want to constrain the movement to a specific axis, you can press `X`, `Y`, or `Z` after pressing `Shift + D` and then move the mouse.
+  - Place the Duplicate: Move the mouse to position the duplicate wherever you want. You can also snap it to a specific location or along an axis by moving the mouse and then clicking to confirm the position. If you want to constrain the movement to a specific axis, you can press `X`, `Y`, or `Z` after pressing `Shift + D` and then move the mouse.
 
-  - Confirm the Placement**: Left-click to confirm the placement of the duplicate. If you want to cancel the operation after pressing `Shift + D`, press `Esc` or right-click before placing the object.
+  - Confirm the Placement: Left-click to confirm the placement of the duplicate. If you want to cancel the operation after pressing `Shift + D`, press `Esc` or right-click before placing the object.
 
 - Duplicating in Edit Mode (for part of a mesh):
 
-  - Enter Edit Mode**: Select the mesh and press `Tab` to switch to Edit Mode.
-  - Select Part of the Mesh**: In Edit Mode, select the vertices, edges, or faces you want to duplicate. You can select them using Box Select (`B`), Circle Select (`C`), or Lasso Select   (`Ctrl + LMB drag`), among other methods.
-  - Duplicate the Selection**: Press `Shift + D` after making your selection. The selected parts will be duplicated and will follow your mouse cursor.
-  - Place the Duplicate**: Move the mouse to position the duplicated geometry. Just like in Object Mode, you can constrain this movement to an axis by pressing `X`, `Y`, or `Z`.
-  - Confirm the Placement**: Left-click to confirm the placement. If you change your mind, press `Esc` or right-click before placing.
+  - Enter Edit Mode: Select the mesh and press `Tab` to switch to Edit Mode.
+  - Select Part of the Mesh: In Edit Mode, select the vertices, edges, or faces you want to duplicate. You can select them using Box Select (`B`), Circle Select (`C`), or Lasso Select   (`Ctrl + LMB drag`), among other methods.
+  - Duplicate the Selection: Press `Shift + D` after making your selection. The selected parts will be duplicated and will follow your mouse cursor.
+  - Place the Duplicate: Move the mouse to position the duplicated geometry. Just like in Object Mode, you can constrain this movement to an axis by pressing `X`, `Y`, or `Z`.
+  - Confirm the Placement: Left-click to confirm the placement. If you change your mind, press `Esc` or right-click before placing.
 
 - Additional Tips:
 
