@@ -1,154 +1,159 @@
 # Blender-Tutorial
 This repository is all about learning Blender as part of my PhD.
 
-1. Make the geometric center to the bounding box center:
+#### 1. How to make the geometric centroid to the bounding box centroid (volumetric) ?
 Answer:
 - https://blender.stackexchange.com/questions/260528/how-do-i-set-the-origin-to-the-center-of-the-bounding-box
 - Object Mode --> Object --> Set Origin --> Origin to Center of Mass (surface)/ Origin to Center of Mass (volume)
   
-2. Generate texture for an object in Blender:
+#### 2. How to generate texture for an object in Blender ?
 Answer:
-### Using Blender’s Texture Paint Mode:
+- Using Blender’s Texture Paint Mode:
 Blender itself has texture painting capabilities that allow you to directly paint onto your 3D models.
 
-**Steps:**
-- In Blender, switch to Texture Paint workspace.
-- Prepare your model with a proper UV map.
-- In the toolshelf, you can select different brushes and colors to paint directly onto your model or its UV layout.
-- You can also use stencils, masks, and layers to create more complex textures.
-- Save the texture from Blender to your computer when finished.
+- Steps:
+  - In Blender, switch to Texture Paint workspace.
+  - Prepare your model with a proper UV map.
+  - In the toolshelf, you can select different brushes and colors to paint directly onto your model or its UV layout.
+  - You can also use stencils, masks, and layers to create more complex textures.
+  - Save the texture from Blender to your computer when finished.
 
-### Additional Tips:
-- When creating textures, keep in mind how they will be used: consider factors like lighting, scale, and the material properties of the object you're texturing.
-- For game assets or other performance-sensitive applications, be mindful of the texture size and format to balance quality and performance.
-- Experiment with different techniques and tools to find what works best for your specific needs and style.
+-  Additional Tips:
+  - When creating textures, keep in mind how they will be used: consider factors like lighting, scale, and the material properties of the object you're texturing.
+  - For game assets or other performance-sensitive applications, be mindful of the texture size and format to balance quality and performance.
+  - Experiment with different techniques and tools to find what works best for your specific needs and style.
 
-3. Add a Texture file in blender mesh:
+#### 3. How to add a Texture file in blender mesh ?
+Answer:
 Adding a texture file, such as a PNG, to a mesh in Blender involves several steps, typically involving UV mapping the mesh and then applying the texture via a material. Here’s a step-by-step guide to help you through the process:
 
-#### Prepare Your Mesh
-1. Open your Blender project and select the mesh you want to texture.
-2. Switch to Edit Mode (`Tab` key).
-3. UV unwrap your mesh (if not already done). You can do this by selecting all vertices (`A` key), then pressing `U` and selecting a unwrap method, like "Smart UV Project" or "Unwrap" for more standard objects. Adjust the unwrap parameters as needed.
+- Prepare Your Mesh
+  - Open your Blender project and select the mesh you want to texture.
+  - Switch to Edit Mode (`Tab` key).
+  - UV unwrap your mesh (if not already done). You can do this by selecting all vertices (`A` key), then pressing `U` and selecting a unwrap method, like "Smart UV Project" or "Unwrap" for more standard objects. Adjust the unwrap parameters as needed.
 
-#### Create and Assign a Material
-1. Switch back to Object Mode (`Tab` key).
-2. Go to the Properties panel, find the Material Properties tab (the little red ball icon).
-3. Click on the "New" button to create a new material.
-4. Name your material as needed.
+- Create and Assign a Material
+  - Switch back to Object Mode (`Tab` key).
+  - Go to the Properties panel, find the Material Properties tab (the little red ball icon).
+  - Click on the "New" button to create a new material.
+  - Name your material as needed.
 
-#### Add Texture to the Material
-- In the same Material Properties tab, scroll down to the Base Color section under the Surface panel.
-- Next to the Base Color label, you'll see a white circle (color field) with a dot on the side. Click on the dot to open the menu, and select “Image Texture” from the options.
-- A new menu will appear allowing you to open an image file. Click "Open" and navigate to your PNG texture file, then select it and click “Open Image” to apply it to the material.
+- Add Texture to the Material
+  - In the same Material Properties tab, scroll down to the Base Color section under the Surface panel.
+  - Next to the Base Color label, you'll see a white circle (color field) with a dot on the side. Click on the dot to open the menu, and select “Image Texture” from the options.
+  - A new menu will appear allowing you to open an image file. Click "Open" and navigate to your PNG texture file, then select it and click “Open Image” to apply it to the material.
 
-#### Map the Texture
-- Make sure the UV map is selected correctly under the Image Texture settings, which should typically default to the correct map if you've just unwrapped your mesh.
-- If necessary, go back to the UV Editing workspace to adjust the placement of your UV map to ensure the texture aligns correctly on your mesh.
+- Map the Texture
+  - Make sure the UV map is selected correctly under the Image Texture settings, which should typically default to the correct map if you've just unwrapped your mesh.
+  - If necessary, go back to the UV Editing workspace to adjust the placement of your UV map to ensure the texture aligns correctly on your mesh.
 
-#### Check and Adjust
-- Go to the Layout workspace to view your model with the applied texture. You might need to switch the viewport shading to "Material Preview" or "Rendered" mode to see the texture. You can switch between these modes by clicking the sphere icons on the top-right of the 3D Viewport or by pressing `Z` and moving the mouse to the preferred mode.
-- If the texture isn't appearing correctly, make sure the texture coordinates in the shader are set to "UV" and that your UV map properly covers the texture space. You might need to return to the UV Editing workspace for adjustments. 
+- Check and Adjust
+  - Go to the Layout workspace to view your model with the applied texture. You might need to switch the viewport shading to "Material Preview" or "Rendered" mode to see the texture. You    can switch between these modes by clicking the sphere icons on the top-right of the 3D Viewport or by pressing `Z` and moving the mouse to the preferred mode.
+  - If the texture isn't appearing correctly, make sure the texture coordinates in the shader are set to "UV" and that your UV map properly covers the texture space. You might need to       return to the UV Editing workspace for adjustments. 
 
 Remember you need to generate your texture first in order to add that to the material. Follow step 2 to generate the texture inside blender.
 
-4. How to cut a mesh in blender:
+#### 4. How to cut a mesh in blender ?
 Answer:
 Cutting a mesh in Blender can be done using several techniques, depending on the type of cut you want to make. Here are some common methods:
 
-#### Knife Tool:
+- Knife Tool:
 The Knife tool lets you make freeform cuts across your mesh.
 
-1. Select your mesh by clicking on it in Object Mode, then switch to Edit Mode by pressing `Tab`.
-2. Select the Knife Tool from the toolshelf or press `K`. This activates the Knife.
-3. Click on your mesh where you want the cut to start, and move your mouse to draw the cut across the mesh. Click again where you want the cut to end.
-4. Press `Enter` to confirm the cut.
+  - Select your mesh by clicking on it in Object Mode, then switch to Edit Mode by pressing `Tab`.
+  - Select the Knife Tool from the toolshelf or press `K`. This activates the Knife.
+  - Click on your mesh where you want the cut to start, and move your mouse to draw the cut across the mesh. Click again where you want the cut to end.
+  - Press `Enter` to confirm the cut.
 
 You can make the cut straight by holding the `Ctrl` key while drawing the line. The Knife tool also supports cutting through the entire mesh by pressing the `Z` key while the tool is active.
 
-#### Bisect Tool:
+- Bisect Tool:
 The Bisect tool cuts through a mesh along a straight plane.
 
-1. In Edit Mode, select all vertices of the mesh you want to cut by pressing `A`.
-2. Go to the Mesh menu, choose Bisect.
-3. Click and drag across your mesh to define the plane of the cut. You can adjust the plane by moving the mouse, and confirm by clicking.
-4. In the Operator panel (bottom left), you can adjust the exact position and orientation of the bisecting plane and choose whether to fill the cut and clear inner or outer vertices.
+  - In Edit Mode, select all vertices of the mesh you want to cut by pressing `A`.
+  - Go to the Mesh menu, choose Bisect.
+  - Click and drag across your mesh to define the plane of the cut. You can adjust the plane by moving the mouse, and confirm by clicking.
+  - In the Operator panel (bottom left), you can adjust the exact position and orientation of the bisecting plane and choose whether to fill the cut and clear inner or outer vertices.
 
-#### Boolean Modifier:
+- Boolean Modifier:
 The Boolean modifier allows you to use another object to cut your mesh.
 
-- Create the object you want to use as a cutting tool (it can be any shape).
-- Position this object so that it intersects with the mesh you want to cut.
-- Select your target mesh, go to the Modifiers tab (wrench icon), and add a Boolean modifier.
-- Set the Operation to 'Difference'.
-- For the Object field in the modifier, select the mesh you're using to cut.
-- Apply the modifier to execute the cut. You might need to hide or delete the cutting object afterward.
+  - Create the object you want to use as a cutting tool (it can be any shape).
+  - Position this object so that it intersects with the mesh you want to cut.
+  - Select your target mesh, go to the Modifiers tab (wrench icon), and add a Boolean modifier.
+  - Set the Operation to 'Difference'.
+  - For the Object field in the modifier, select the mesh you're using to cut.
+  - Apply the modifier to execute the cut. You might need to hide or delete the cutting object afterward.
 
-#### Loop Cut:
+- Loop Cut:
 For adding control loops or making systematic cuts along the surface.
 
-- In Edit Mode, press `Ctrl + R`. You'll see a purple loop appear on your mesh.
-- Move your mouse to position the loop where you want the cut. Scroll the mouse wheel to increase the number of cuts.
-- Click to set the location of the loop cut, then move the mouse to slide the cut along its potential path, and click again to finalize its position.
+  - In Edit Mode, press `Ctrl + R`. You'll see a purple loop appear on your mesh.
+  - Move your mouse to position the loop where you want the cut. Scroll the mouse wheel to increase the number of cuts.
+  - Click to set the location of the loop cut, then move the mouse to slide the cut along its potential path, and click again to finalize its position.
 
 Each of these methods has its own best use cases, and the right one to use will depend on the specifics of what you're trying to achieve with your mesh in Blender.
 
-5. How to create a sphere in blender?
+#### 5. How to create a sphere in blender?
 Answer:
 Creating a sphere in Blender is a straightforward process. Here's how you can do it:
 
-**Start a New Blender Project**: Open Blender and start a new project.
+- Start a New Blender Project**: Open Blender and start a new project.
 
-**Delete the Default Cube** (if present): In the 3D Viewport, you might see a default cube when you start a new project. To delete this, make sure it is selected (it should be highlighted in orange if it is), then press the `Delete` key or `X` key and confirm the deletion.
+- Delete the Default Cube** (if present): In the 3D Viewport, you might see a default cube when you start a new project. To delete this, make sure it is selected (it should be highlighted in orange if it is), then press the `Delete` key or `X` key and confirm the deletion.
 
-**Add a Sphere**:
+- Add a Sphere**:
     - Press `Shift + A` to open the Add menu in the 3D Viewport. This brings up a list of mesh objects you can add.
     - Navigate to `Mesh > UV Sphere` to add a standard UV sphere. Alternatively, you can choose `Mesh > Ico Sphere` for a sphere made of triangles instead of quads.
 
-**Adjust Sphere Settings** (Optional):
+- Adjust Sphere Settings** (Optional):
     - Immediately after adding the sphere, you can adjust its properties in the bottom left corner of the 3D Viewport. If you don't see the options, click on the small arrow or press `F9` to expand the menu.
     - Here, you can change the number of segments and rings for a UV Sphere, or subdivisions for an Ico Sphere. Increasing these values will increase the sphere's detail and smoothness but also the number of vertices.
 
-**Position the Sphere** (If Needed):
+- Position the Sphere** (If Needed):
     - With the sphere selected, you can move it by pressing `G` (grab), then moving your mouse. You can also constrain the movement to an axis by pressing `X`, `Y`, or `Z` after pressing `G`.
     - Scale the sphere by pressing `S` and moving your mouse. Again, you can constrain scaling to an axis by pressing `X`, `Y`, or `Z` after pressing `S`.
     - Rotate the sphere by pressing `R` and moving your mouse. Constrain rotation to an axis by pressing `X`, `Y`, or `Z` after pressing `R`.
 
-**Edit the Sphere** (If Required):
+- Edit the Sphere** (If Required):
     - To modify the sphere further, switch to Edit Mode by pressing `Tab` or selecting Edit Mode from the mode dropdown menu in the top left corner of the 3D Viewport.
     - In Edit Mode, you can select vertices, edges, or faces to move, scale, extrude, or otherwise modify the shape of your sphere.
 
-**Apply Object Transformations** (Optional):
+- Apply Object Transformations** (Optional):
     - If you've significantly moved, rotated, or scaled your sphere, you might want to apply these transformations to reset the object's origin. With the sphere selected, press `Ctrl + A` and choose the transformations you want to apply (Location, Rotation, Scale).
 
 By following these steps, you should now have a sphere in your Blender scene which you can continue to edit, texture, and use within your project as needed.
 
-6. Create a plane in blender which is in the middle of 2 surfaces. You have to draw a plane in the middle of 2 surfaces of that 1 object.
-  
+#### 6. How to create a plane in blender which is in the middle of 2 surfaces ? Basically drawing a plane in the middle of 2 surfaces of that 1 object.
+Answer:
 Creating a plane exactly in the middle of two surfaces of a single object involves a few steps, especially if those surfaces are not parallel. I'll guide you through a method to achieve this:
 
-### Step 1: Select the Two Faces
-- In Blender, select your object and enter Edit Mode (`Tab`).
-- Select the two faces between which you want to place a plane. You can select faces by clicking on them while in Face Select mode (`3` on the keyboard if using Blender's default keymap, or click the face icon in the top corner of the 3D Viewport).
+- Select the Two Faces
+  - In Blender, select your object and enter Edit Mode (`Tab`).
+  - Select the two faces between which you want to place a plane. You can select faces by clicking on them while in Face Select mode (`3` on the keyboard if using Blender's default   keymap, or click the face icon in the top corner of the 3D Viewport).
 
-### Step 2: Create the Midpoint Edges
-- With the two faces selected, right-click to open the context menu and choose `Subdivide`. This will add vertices and edges dividing each face into smaller faces.
-- Select the new edge loop created at the center of each of the original faces (these are the closest edges to the midpoint of your original faces).
+- Create the Midpoint Edges
+  - With the two faces selected, right-click to open the context menu and choose `Subdivide`. This will add vertices and edges dividing each face into smaller faces.
+  - Select the new edge loop created at the center of each of the original faces (these are the closest edges to the midpoint of your original faces).
 
-### Step 3: Create the Plane
-- Use `Shift + S` and choose "Cursor to Selected" with the new central edges selected. This will place the 3D cursor exactly in the middle between these two edges.
-- Now, go back to Object Mode (`Tab`), press `Shift + A` and add a new Plane.
-- The plane will be created at the location of the 3D cursor, which is now in the middle between the two faces. However, it might not be oriented correctly according to your surfaces.
+- Create the Plane
+  - Use `Shift + S` and choose "Cursor to Selected" with the new central edges selected. This will place the 3D cursor exactly in the middle between these two edges.
+  - Now, go back to Object Mode (`Tab`), press `Shift + A` and add a new Plane.
+  - The plane will be created at the location of the 3D cursor, which is now in the middle between the two faces. However, it might not be oriented correctly according to your surfaces.
 
-### Step 4: Align the Plane
-- To align the plane, you might need to rotate and resize it manually. In Edit Mode, you can use the `Rotate` (`R`) and `Scale` (`S`) commands to align the plane with the midpoint of the two surfaces.
-- Alternatively, if you want the plane to align precisely with the orientation of one of the original faces, you could:
+- Align the Plane
+  - To align the plane, you might need to rotate and resize it manually. In Edit Mode, you can use the `Rotate` (`R`) and `Scale` (`S`) commands to align the plane with the midpoint of the two surfaces.
+  - Alternatively, if you want the plane to align precisely with the orientation of one of the original faces, you could:
    - Select one face of your object and enter Edit Mode.
    - Press `Shift + Numpad 7`. This will align the view to the selected face.
    - Go back to Object Mode, select the plane, and in Edit Mode, rotate and scale the plane to fit exactly between the two original faces based on your view.
 
-### Step 5: Fine-tuning
-- Adjust the plane's position and orientation as needed to ensure it sits exactly in the middle of the two surfaces. You may need to switch between different views and use snapping (`Shift + Tab`) to align things precisely.
-- Remember, if the two faces are not parallel, determining the "middle" can be more conceptual than geometric. You might decide based on the visual midpoint or other criteria relevant to your model.
+- Fine-tuning
+  - Adjust the plane's position and orientation as needed to ensure it sits exactly in the middle of the two surfaces. You may need to switch between different views and use snapping (`Shift + Tab`) to align things precisely.
+  - Remember, if the two faces are not parallel, determining the "middle" can be more conceptual than geometric. You might decide based on the visual midpoint or other criteria relevant to your model.
 
 This method requires some manual adjustments because Blender doesn't have a direct feature for creating a plane exactly between two non-parallel surfaces. The exactness of the placement will depend on the initial position of the 3D cursor and your adjustments to the plane's orientation and size.
+
+#### 7. How to add vertex and edge in blender:
+Answer:
+https://www.youtube.com/watch?v=YVGWy3qNeOE
