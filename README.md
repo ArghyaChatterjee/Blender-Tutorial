@@ -1,4 +1,4 @@
-# Blender-Tutorial
+# All About Blender
 This repository is all about learning Blender as part of my PhD.
 
 #### 1. How to make the geometric centroid to the bounding box centroid (volumetric) ?
