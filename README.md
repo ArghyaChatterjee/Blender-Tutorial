@@ -193,7 +193,7 @@ By following these steps, you can easily duplicate any mesh or part of a mesh in
 Answer:
 Edit --> Preferences --> Themes --> 3D Viewport --> Theme Space --> Gradiant Colors --> Background Type --> Gradiant High (Make it White) --> Save preferences with 3 horizontal lines on the left bottom panel.
 
-#### 10. How to hide 3D cursor in Blender ?
+#### 10. How to hide 3D cursor, Axes, Floor, Origin point in Blender 3D viewport ?
 Answer:
 - Find the Overlays: At the top of the 3D viewport, look for the 'Overlays' dropdown menu. This is typically represented by two circles overlapping each other. It's located near the center of the viewport's header, next to the viewport shading options.
 - Access the Overlays Menu: Click on the 'Overlays' dropdown to open the overlay options.
