@@ -188,3 +188,17 @@ Duplicating a mesh in Blender is a straightforward process. Here's how you can d
   - Remember to switch back to Object Mode (`Tab`) if you want to transform or edit the duplicated objects independently.
 
 By following these steps, you can easily duplicate any mesh or part of a mesh in Blender.
+
+#### 9. How to change the background of the 3D viewport in Blender ?
+Answer:
+Edit --> Preferences --> Themes --> 3D Viewport --> Theme Space --> Gradiant Colors --> Background Type --> Gradiant High (Make it White) --> Save preferences with 3 horizontal lines on the left bottom panel.
+
+#### 10. How to hide 3D cursor in Blender ?
+Answer:
+- Find the Overlays: At the top of the 3D viewport, look for the 'Overlays' dropdown menu. This is typically represented by two circles overlapping each other. It's located near the center of the viewport's header, next to the viewport shading options.
+- Access the Overlays Menu: Click on the 'Overlays' dropdown to open the overlay options.
+- Hide the 3D Cursor: Within the Overlays menu, find the option for the "3D Cursor" and uncheck it. This action will hide the 3D cursor from the viewport.
+
+#### 11. How to show bounding box, individual axis and wire frame mesh and other properties of objects visible in object mode ?
+Answer:
+On the right pane --> Object (object properties) --> turn on the options as necessary.
