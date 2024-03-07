@@ -247,7 +247,7 @@ This is a OBJ file format, which is a standard 3D image format used by different
 
 Vertices (`v`) are the fundamental pieces in the geometry of the model, defining the points in 3D space that are connected to form the model's surfaces. The list of `v` values essentially maps out all the corners and distinctive points of the 3D model in its geometric mesh.
 
-### 14. How to apply/set a translation, rotation and scale the default one (0, 0, 0) of an object in blender ?
+#### 14. How to apply/set a translation, rotation and scale the default one (0, 0, 0) of an object in blender ?
 Answer:
 Make the Transform --> Select the object --> ctrl + A --> Apply the Transform operation as needed (Translation/Rotation/Scale)
 
