@@ -211,42 +211,6 @@ Answer:
 Answer:
 On the right pane --> Object (object properties) --> turn on the options as necessary.
 
-#### 13. Why is an obj file looks like this ??
-```
-# Blender 3.6.4
-# www.blender.org
-mtllib model.mtl
-g IHMC_Mug.001_IHMC_Mug.001
-v 0.042483 -0.040067 -0.020203
-v 0.041987 -0.039238 -0.021304
-v 0.043409 -0.039516 -0.017608
-v 0.042640 -0.038237 -0.019553
-v 0.043221 -0.041066 -0.018310
-v 0.043434 -0.038309 -0.017005
-v 0.043150 -0.036963 -0.017630
-v 0.042871 -0.036951 -0.018445
-v 0.041724 -0.037497 -0.021864
-v 0.042218 -0.041832 -0.021123
-v 0.042747 -0.041106 -0.019586
-v 0.043391 -0.035778 -0.016467 
-```
-Answer:
-This is a OBJ file format, which is a standard 3D image format used by different 3D image editing programs, including Blender. The OBJ format is a plain text file format and represents three-dimensional geometry alone. Here's what each line and value in your snippet represents:
-
-- `# Blender 3.6.4`: This is a comment (anything following a `#` is a comment). It indicates the version of Blender used to export this file.
-
-- `# www.blender.org`: Another comment, usually showing the source of the software used.
-
-- `mtllib model.mtl`: This line refers to an external .mtl file (material library file) associated with this OBJ file. The MTL file contains definitions for materials applied to the model. `model.mtl` is the filename of this associated material definitions file.
-
-- `g IHMC_Mug.001_IHMC_Mug.001`: This defines a group, which in OBJ files is a way to organize the model's geometry. Everything following this line until the next group definition (or the end of the file) is part of this group. "IHMC_Mug.001_IHMC_Mug.001" is the name of the group.
-
-- `v`: Lines beginning with `v` are vertex definitions. Each `v` is followed by three coordinate values representing the X, Y, and Z coordinates of a vertex in the model's space. For example:
-   - `v 0.042483 -0.040067 -0.020203` defines a vertex located at X = 0.042483, Y = -0.040067, Z = -0.020203.
-   - Each subsequent `v` line defines another vertex in the 3D space of the model.
-
-Vertices (`v`) are the fundamental pieces in the geometry of the model, defining the points in 3D space that are connected to form the model's surfaces. The list of `v` values essentially maps out all the corners and distinctive points of the 3D model in its geometric mesh.
-
 #### 14. How to apply/set a translation, rotation and scale the default one (0, 0, 0) of an object in blender ?
 Answer:
 Make the Transform --> Select the object --> ctrl + A --> Apply the Transform operation as needed (Translation/Rotation/Scale)
