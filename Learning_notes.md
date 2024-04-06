@@ -35,7 +35,7 @@ This is a OBJ file format, which is a standard 3D image format used by different
 
 Vertices (`v`) are the fundamental pieces in the geometry of the model, defining the points in 3D space that are connected to form the model's surfaces. The list of `v` values essentially maps out all the corners and distinctive points of the 3D model in its geometric mesh.
 
-## 2. What does map_Kd normal and map_ao image files mentioned in mtl files in blender ?  
+## 2. What does map_Kd, normal and map_ao image files mean in mtl files in blender ?  
 - map_Kd refers to the diffuse texture map of the material. The "Kd" stands for "diffuse reflectivity." This map defines the base color of the material, which is affected by direct light. It's essentially the texture that gives the object its primary color and detail under direct light, making it one of the most commonly used texture maps in 3D modeling.
 
 - normal specifies the normal map of the material. Normal maps are used to simulate fine surface details without actually increasing the complexity (and therefore the number of polygons) of the model. They affect how light bounces off the surface, creating the illusion of depth and detail on textures. This can include bumps, dents, and other surface textures that are too small to be modeled efficiently with geometry.
