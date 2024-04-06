@@ -32,9 +32,9 @@ Blender itself has texture painting capabilities that allow you to directly pain
   - Save the texture from Blender to your computer when finished.
 
 -  Additional Tips:
-  - When creating textures, keep in mind how they will be used: consider factors like lighting, scale, and the material properties of the object you're texturing.
-  - For game assets or other performance-sensitive applications, be mindful of the texture size and format to balance quality and performance.
-  - Experiment with different techniques and tools to find what works best for your specific needs and style.
+    - When creating textures, keep in mind how they will be used: consider factors like lighting, scale, and the material properties of the object you're texturing.
+    - For game assets or other performance-sensitive applications, be mindful of the texture size and format to balance quality and performance.
+    - Experiment with different techniques and tools to find what works best for your specific needs and style.
 
 #### 5. How to add a Texture file in blender mesh ?
 Answer:
