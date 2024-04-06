@@ -14,9 +14,9 @@ https://blender.stackexchange.com/questions/260528/how-do-i-set-the-origin-to-th
 
 Object Mode --> select the object --> Square icon with dot (in the top middle beside magnet icon) --> Transform Pivot Point --> Bounding Box Center
 
-Then select the object --> right click --> set origin --> set origin to geometry
+Select the object --> right click --> set origin --> set origin to geometry
 
-If you want to do it more precisely, Set the pivot point to Bounding Box Center; move the 3D cursor to the object (Shortcut Shift–S2) and use the right click menu to set Origin to 3D Cursor.
+If you want to do it more precisely, set the pivot point to Bounding Box Center; move the 3D cursor to the object (Shortcut Shift+S+2) and use the right click menu to set Origin to 3D Cursor.
 
 #### 4. How to generate texture for an object in Blender ?
 Answer:
