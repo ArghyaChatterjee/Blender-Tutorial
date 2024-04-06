@@ -11,6 +11,7 @@ Object Mode --> Object --> Set Origin --> Origin to Center of Mass (surface)/ Or
 #### 3. How to make the Bounding Box Volume as the center of the object volume (0, 0, 0) ?
 Answer:
 https://blender.stackexchange.com/questions/260528/how-do-i-set-the-origin-to-the-center-of-the-bounding-box
+
 Object Mode --> select the object --> Square icon with dot (in the top middle beside magnet icon) --> Transform Pivot Point --> Bounding Box Center
 
 Then select the object --> right click --> set origin --> set origin to geometry
