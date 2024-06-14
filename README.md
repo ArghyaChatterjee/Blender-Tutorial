@@ -4,6 +4,9 @@ This repository is all about learning Blender as part of my PhD.
 #### 1. How to grab an object in blender ?
 Answer:
 With the object selected, press G to grab, and then press Z to constrain the movement to the Z-axis.
+#### 2. How to change an object rotation ?
+Answer:
+With the object selected, go to the preset viewpoint to constrain rotation to an axis by pressing `X`, `Y`, or `Z` after pressing `R`.
 #### 2. How to make the geometric centroid to the bounding box centroid (volumetric) ?
 Answer:
 Object Mode --> Object --> Set Origin --> Origin to Center of Mass (surface)/ Origin to Center of Mass (volume)
