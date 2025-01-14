@@ -1,5 +1,5 @@
 # All About Blender (Tutorial)
-This repository is all about learning Blender as part of my PhD.
+This is a tutorial repository for Blender.
 
 #### 1. How to grab an object in blender ?
 Answer:
