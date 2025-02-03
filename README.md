@@ -228,7 +228,7 @@ On the right pane --> Object (object properties) --> turn on the options as nece
 Answer:
 - Point Cloud Visualizer - Blender [[video]](https://www.youtube.com/watch?v=eXct_7k779Q)
 - Render Point Clouds in Blender with Cycles [[video]](https://www.youtube.com/watch?v=kwpj7ZUtnac)
-- 3D Point Clouds in Blender: Starter Guide [[video][(https://www.youtube.com/watch?v=DCkFhHNeSc0)
+- 3D Point Clouds in Blender: Starter Guide [[video]](https://www.youtube.com/watch?v=DCkFhHNeSc0)
 - Download Pointcloud Assets [[sketchfab]](https://sketchfab.com/thevoidescaperoom/collections/point-cloud-b57ab4e8887b45d6b31cc8a5bec3b1f4)
 
 
