@@ -1,9 +1,9 @@
 # All About Blender (Tutorial)
 This is a tutorial repository for Blender.
 
-#### 1. How to grab an object in blender ?
+#### 1. How to grab and change an object position ?
 Answer:
-With the object selected, press G to grab, and then press Z to constrain the movement to the Z-axis.
+With the object selected, press G to grab and move it. Press `X`, `Y`, or `Z` after pressing `G` to constrain the movement to an axis.
 #### 2. How to change an object rotation ?
 Answer:
 With the object selected, go to the preset viewpoint to constrain rotation to an axis by pressing `X`, `Y`, or `Z` after pressing `R`.
