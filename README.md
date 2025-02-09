@@ -17,6 +17,8 @@ Make the Transform --> Select the object --> ctrl + A --> Apply the Transform op
 Answer:
 https://docs.blender.org/manual/en/2.83/editors/3dview/toolbar/measure.html
 
+On the left panel, click on Measure (tool) --> click on first point --> click on 2nd point --> a distance will be shown between them.
+
 #### 5. How to transform an object mesh from an arbitrary position to the origin in blender?
 Answer:
 Select the object --> right click --> set origin --> set origin to geometry
