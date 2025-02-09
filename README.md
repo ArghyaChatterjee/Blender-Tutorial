@@ -1,5 +1,5 @@
 # All About Blender (Tutorial)
-This is a tutorial repository for working with meshes in Blender.
+This tutorial repository is for working with meshes and point clouds in Blender.
 
 #### 1. How to grab and change an object position?
 Answer:
