@@ -14,10 +14,10 @@ Upper left panel, click on file --> import --> Wavefront (.ply) --> Select ply f
 Answer:
 
 `For meshes`:
-On the upper left panel, click on file --> export --> Wavefront (.obj) --> Give an object name --> Give the file path
+Upper left panel, click on file --> export --> Wavefront (.obj) --> Give an object name --> Give the file path
 
 `For point clouds`:
-On the upper left panel, click on file --> export --> Wavefront (.ply) --> Give an object name --> Give the file path
+Upper left panel, click on file --> export --> Wavefront (.ply) --> Give an object name --> Give the file path
 
 #### 3. How to grab and change an object's position?
 Answer:
