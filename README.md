@@ -1,14 +1,14 @@
 # All About Blender (Tutorial)
-This is a tutorial repository for Blender.
+This is a tutorial repository for working with meshes in Blender.
 
 #### 1. How to grab and change an object position ?
 Answer:
 With the object selected, press G to grab and move it. Press `X`, `Y`, or `Z` after pressing `G` to constrain the movement to an axis.
 #### 2. How to change an object rotation ?
 Answer:
-With the object selected, go to the preset viewpoint to constrain rotation to an axis by pressing `X`, `Y`, or `Z` after pressing `R`.
+With the object selected, go to the preset viewpoint to constrain the rotation to an axis by pressing `X`, `Y`, or `Z` after pressing `R`.
 
-#### 3. How to apply transform/set a translation, rotation and scale the default one (0, 0, 0) of an object in blender ?
+#### 3. How to apply transform/set a translation, rotation, and scale to default (0, 0, 0) of an object in blender?
 Answer:
 Make the Transform --> Select the object --> ctrl + A --> Apply the Transform operation as needed (Translation/Rotation/Scale)
 
