@@ -17,6 +17,10 @@ Make the Transform --> Select the object --> ctrl + A --> Apply the Transform op
 Answer:
 https://docs.blender.org/manual/en/2.83/editors/3dview/toolbar/measure.html
 
+#### 5. How to transform an object mesh from an arbitrary position to the origin in blender?
+Answer:
+Select the object --> right click --> set origin --> set origin to geometry
+
 #### 5. How to make the geometric centroid to the bounding box centroid (volumetric)?
 Answer:
 Object Mode --> Object --> Set Origin --> Origin to Center of Mass (surface)/ Origin to Center of Mass (volume)
@@ -229,7 +233,7 @@ Answer:
 Answer:
 On the right pane --> Object (object properties) --> turn on the options as necessary.
 
-#### 17. How to render point cloud in blender ?
+#### 17. How to render point cloud in blender?
 Answer:
 - Point Cloud Visualizer - Blender [[video]](https://www.youtube.com/watch?v=eXct_7k779Q)
 - Render Point Clouds in Blender with Cycles [[video]](https://www.youtube.com/watch?v=kwpj7ZUtnac)
