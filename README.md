@@ -1,33 +1,47 @@
 # All About Blender (Tutorial)
 This tutorial repository is for working with meshes and point clouds in Blender.
 
-#### 1. How to grab and change an object position?
+#### 1. How to import meshes and point clouds in blender?
+Answer:
+For meshes:
+On the upper left panel, click on file --> import --> Wavefront (.obj) --> Select object from file path
+For point clouds:
+On the upper left panel, click on file --> import --> Wavefront (.ply) --> Select object from file path
+
+#### 2. How to export meshes and point clouds in blender?
+Answer:
+For meshes:
+On the upper left panel, click on file --> export --> Wavefront (.obj) --> Give an object name --> Give the file path
+For point clouds:
+On the upper left panel, click on file --> export --> Wavefront (.ply) --> Give an object name --> Give the file path
+
+#### 3. How to grab and change an object's position?
 Answer:
 With the object selected, press G to grab and move it. Press `X`, `Y`, or `Z` after pressing `G` to constrain the movement to an axis.
 
-#### 2. How to change an object rotation?
+#### 4. How to change an object rotation?
 Answer:
 With the object selected, go to the preset viewpoint to constrain the rotation to an axis by pressing `X`, `Y`, or `Z` after pressing `R`.
 
-#### 3. How to apply transform/set a translation, rotation, and scale to default (0, 0, 0) of an object in blender?
+#### 5. How to apply transform/set a translation, rotation, and scale to default (0, 0, 0) of an object in blender?
 Answer:
 Make the Transform --> Select the object --> ctrl + A --> Apply the Transform operation as needed (Translation/Rotation/Scale)
 
-#### 4. How can an object dimension / 2 points distance be measured in blender?
+#### 6. How can an object dimension / 2 points distance be measured in blender?
 Answer:
 https://docs.blender.org/manual/en/2.83/editors/3dview/toolbar/measure.html
 
 On the left panel, click on Measure (tool) --> click on first point --> click on 2nd point --> a distance will be shown between them.
 
-#### 5. How to transform an object mesh from an arbitrary position to the origin in blender?
+#### 7. How to transform an object mesh from an arbitrary position to the origin in blender?
 Answer:
 Select the object --> right click --> set origin --> set origin to geometry
 
-#### 6. How to make the geometric centroid to the bounding box centroid (volumetric)?
+#### 8. How to make the geometric centroid to the bounding box centroid (volumetric)?
 Answer:
 Object Mode --> Object --> Set Origin --> Origin to Center of Mass (surface)/ Origin to Center of Mass (volume)
 
-#### 7. How to make the Bounding Box Volume as the center of the object volume (0, 0, 0)?
+#### 9. How to make the Bounding Box Volume as the center of the object volume (0, 0, 0)?
 Answer:
 
 https://blender.stackexchange.com/questions/260528/how-do-i-set-the-origin-to-the-center-of-the-bounding-box
@@ -38,7 +52,7 @@ Select the object --> right click --> set origin --> set origin to geometry
 
 If you want to do it more precisely, set the pivot point to Bounding Box Center; move the 3D cursor to the object (Shortcut Shift+S+2) and use the right click menu to set Origin to 3D Cursor.
 
-#### 8. How to generate texture for an object in Blender ?
+#### 10. How to generate texture for an object in Blender ?
 Answer:
 - Using Blender’s Texture Paint Mode:
 Blender itself has texture painting capabilities that allow you to directly paint onto your 3D models.
@@ -55,7 +69,7 @@ Blender itself has texture painting capabilities that allow you to directly pain
     - For game assets or other performance-sensitive applications, be mindful of the texture size and format to balance quality and performance.
     - Experiment with different techniques and tools to find what works best for your specific needs and style.
 
-#### 9. How to add a Texture file in blender mesh ?
+#### 11. How to add a Texture file in blender mesh ?
 Answer:
 Adding a texture file, such as a PNG, to a mesh in Blender involves several steps, typically involving UV mapping the mesh and then applying the texture via a material. Here’s a step-by-step guide to help you through the process:
 
@@ -85,7 +99,7 @@ Adding a texture file, such as a PNG, to a mesh in Blender involves several step
 
 Remember you need to generate your texture first in order to add that to the material. Follow step 2 to generate the texture inside blender.
 
-#### 10. How to cut a mesh in blender ?
+#### 12. How to cut a mesh in blender ?
 Answer:
 Cutting a mesh in Blender can be done using several techniques, depending on the type of cut you want to make. Here are some common methods:
 
@@ -126,7 +140,7 @@ For adding control loops or making systematic cuts along the surface.
 
 Each of these methods has its own best use cases, and the right one to use will depend on the specifics of what you're trying to achieve with your mesh in Blender.
 
-#### 11. How to create a sphere in blender?
+#### 13. How to create a sphere in blender?
 Answer:
 Creating a sphere in Blender is a straightforward process. Here's how you can do it:
 
@@ -156,7 +170,7 @@ Creating a sphere in Blender is a straightforward process. Here's how you can do
 
 By following these steps, you should now have a sphere in your Blender scene which you can continue to edit, texture, and use within your project as needed.
 
-#### 12. How to create a plane in blender which is in the middle of 2 surfaces ? Basically drawing a plane in the middle of 2 surfaces of that 1 object.
+#### 14. How to create a plane in blender which is in the middle of 2 surfaces ? Basically drawing a plane in the middle of 2 surfaces of that 1 object.
 Answer:
 Creating a plane exactly in the middle of two surfaces of a single object involves a few steps, especially if those surfaces are not parallel. I'll guide you through a method to achieve this:
 
@@ -186,11 +200,11 @@ Creating a plane exactly in the middle of two surfaces of a single object involv
 
 This method requires some manual adjustments because Blender doesn't have a direct feature for creating a plane exactly between two non-parallel surfaces. The exactness of the placement will depend on the initial position of the 3D cursor and your adjustments to the plane's orientation and size.
 
-#### 13. How to add vertex and edge in blender:
+#### 15. How to add vertex and edge in blender:
 Answer:
 https://www.youtube.com/watch?v=YVGWy3qNeOE
 
-#### 14. How to Duplicate a mesh ?
+#### 16. How to Duplicate a mesh ?
 Answer:
 Duplicating a mesh in Blender is a straightforward process. Here's how you can do it:
 
@@ -221,21 +235,21 @@ Duplicating a mesh in Blender is a straightforward process. Here's how you can d
 
 By following these steps, you can easily duplicate any mesh or part of a mesh in Blender.
 
-#### 15. How to change the background of the 3D viewport in Blender ?
+#### 17. How to change the background of the 3D viewport in Blender ?
 Answer:
 Edit --> Preferences --> Themes --> 3D Viewport --> Theme Space --> Gradiant Colors --> Background Type --> Gradiant High (Make it White) --> Save preferences with 3 horizontal lines on the left bottom panel.
 
-#### 16. How to hide 3D cursor, Axes, Floor, Origin point in Blender 3D viewport ?
+#### 18. How to hide 3D cursor, Axes, Floor, Origin point in Blender 3D viewport ?
 Answer:
 - Find the Overlays: At the top of the 3D viewport, look for the 'Overlays' dropdown menu. This is typically represented by two circles overlapping each other. It's located near the center of the viewport's header, next to the viewport shading options.
 - Access the Overlays Menu: Click on the 'Overlays' dropdown to open the overlay options.
 - Hide the 3D Cursor: Within the Overlays menu, find the option for the "3D Cursor" and uncheck it. This action will hide the 3D cursor from the viewport.
 
-#### 17. How to show bounding box, individual axis and wire frame mesh and other properties of objects visible in object mode ?
+#### 19. How to show bounding box, individual axis and wire frame mesh and other properties of objects visible in object mode ?
 Answer:
 On the right pane --> Object (object properties) --> turn on the options as necessary.
 
-#### 18. How to render point cloud in blender?
+#### 20. How to render point cloud in blender?
 Answer:
 - Point Cloud Visualizer - Blender [[video]](https://www.youtube.com/watch?v=eXct_7k779Q)
 - Render Point Clouds in Blender with Cycles [[video]](https://www.youtube.com/watch?v=kwpj7ZUtnac)
