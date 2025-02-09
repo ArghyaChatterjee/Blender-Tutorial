@@ -21,28 +21,34 @@ Upper left panel, click on file --> export --> Wavefront (.ply) --> Give name --
 
 #### 3. How to grab and change an object's position?
 Answer:
+
 With the object selected, press G to grab and move it. Press `X`, `Y`, or `Z` after pressing `G` to constrain the movement to an axis.
 
 #### 4. How to change an object rotation?
 Answer:
+
 With the object selected, go to the preset viewpoint to constrain the rotation to an axis by pressing `X`, `Y`, or `Z` after pressing `R`.
 
 #### 5. How to apply transform/set a translation, rotation, and scale to default (0, 0, 0) of an object in blender?
 Answer:
+
 Make the Transform --> Select the object --> ctrl + A --> Apply the Transform operation as needed (Translation/Rotation/Scale)
 
 #### 6. How can an object dimension / 2 points distance be measured in blender?
 Answer:
+
 https://docs.blender.org/manual/en/2.83/editors/3dview/toolbar/measure.html
 
 On the left panel, click on Measure (tool) --> click on first point --> click on 2nd point --> a distance will be shown between them.
 
 #### 7. How to transform an object mesh from an arbitrary position to the origin in blender?
 Answer:
+
 Select the object --> right click --> set origin --> set origin to geometry
 
 #### 8. How to make the geometric centroid to the bounding box centroid (volumetric)?
 Answer:
+
 Object Mode --> Object --> Set Origin --> Origin to Center of Mass (surface)/ Origin to Center of Mass (volume)
 
 #### 9. How to make the Bounding Box Volume as the center of the object volume (0, 0, 0)?
@@ -58,6 +64,7 @@ If you want to do it more precisely, set the pivot point to Bounding Box Center;
 
 #### 10. How to generate texture for an object in Blender ?
 Answer:
+
 - Using Blender’s Texture Paint Mode:
 Blender itself has texture painting capabilities that allow you to directly paint onto your 3D models.
 
@@ -75,6 +82,7 @@ Blender itself has texture painting capabilities that allow you to directly pain
 
 #### 11. How to add a Texture file in blender mesh ?
 Answer:
+
 Adding a texture file, such as a PNG, to a mesh in Blender involves several steps, typically involving UV mapping the mesh and then applying the texture via a material. Here’s a step-by-step guide to help you through the process:
 
 - Prepare Your Mesh
@@ -105,6 +113,7 @@ Remember you need to generate your texture first in order to add that to the mat
 
 #### 12. How to cut a mesh in blender ?
 Answer:
+
 Cutting a mesh in Blender can be done using several techniques, depending on the type of cut you want to make. Here are some common methods:
 
 - Knife Tool:
@@ -146,6 +155,7 @@ Each of these methods has its own best use cases, and the right one to use will 
 
 #### 13. How to create a sphere in blender?
 Answer:
+
 Creating a sphere in Blender is a straightforward process. Here's how you can do it:
 
 - Start a New Blender Project: Open Blender and start a new project.
@@ -176,6 +186,7 @@ By following these steps, you should now have a sphere in your Blender scene whi
 
 #### 14. How to create a plane in blender which is in the middle of 2 surfaces ? Basically drawing a plane in the middle of 2 surfaces of that 1 object.
 Answer:
+
 Creating a plane exactly in the middle of two surfaces of a single object involves a few steps, especially if those surfaces are not parallel. I'll guide you through a method to achieve this:
 
 - Select the Two Faces
@@ -206,10 +217,12 @@ This method requires some manual adjustments because Blender doesn't have a dire
 
 #### 15. How to add vertex and edge in blender:
 Answer:
+
 https://www.youtube.com/watch?v=YVGWy3qNeOE
 
-#### 16. How to Duplicate a mesh ?
+#### 16. How to Duplicate a mesh?
 Answer:
+
 Duplicating a mesh in Blender is a straightforward process. Here's how you can do it:
 
 - Duplicating in Object Mode:
@@ -241,20 +254,24 @@ By following these steps, you can easily duplicate any mesh or part of a mesh in
 
 #### 17. How to change the background of the 3D viewport in Blender ?
 Answer:
+
 Edit --> Preferences --> Themes --> 3D Viewport --> Theme Space --> Gradiant Colors --> Background Type --> Gradiant High (Make it White) --> Save preferences with 3 horizontal lines on the left bottom panel.
 
 #### 18. How to hide 3D cursor, Axes, Floor, Origin point in Blender 3D viewport ?
 Answer:
+
 - Find the Overlays: At the top of the 3D viewport, look for the 'Overlays' dropdown menu. This is typically represented by two circles overlapping each other. It's located near the center of the viewport's header, next to the viewport shading options.
 - Access the Overlays Menu: Click on the 'Overlays' dropdown to open the overlay options.
 - Hide the 3D Cursor: Within the Overlays menu, find the option for the "3D Cursor" and uncheck it. This action will hide the 3D cursor from the viewport.
 
 #### 19. How to show bounding box, individual axis and wire frame mesh and other properties of objects visible in object mode ?
 Answer:
+
 On the right pane --> Object (object properties) --> turn on the options as necessary.
 
 #### 20. How to render point cloud in blender?
 Answer:
+
 - Point Cloud Visualizer - Blender [[video]](https://www.youtube.com/watch?v=eXct_7k779Q)
 - Render Point Clouds in Blender with Cycles [[video]](https://www.youtube.com/watch?v=kwpj7ZUtnac)
 - 3D Point Clouds in Blender: Starter Guide [[video]](https://www.youtube.com/watch?v=DCkFhHNeSc0)
