@@ -5,10 +5,10 @@ This tutorial repository is for working with meshes and point clouds in Blender.
 Answer:
 
 `For meshes`:
-On the upper left panel, click on file --> import --> Wavefront (.obj) --> Select object from file path
+Upper left panel, click on file --> import --> Wavefront (.obj) --> Select obj from file path
 
 `For point clouds`:
-On the upper left panel, click on file --> import --> Wavefront (.ply) --> Select object from file path
+Upper left panel, click on file --> import --> Wavefront (.ply) --> Select ply from file path
 
 #### 2. How to export meshes and point clouds in blender?
 Answer:
