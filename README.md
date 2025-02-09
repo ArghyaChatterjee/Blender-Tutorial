@@ -6,6 +6,7 @@ Answer:
 
 `For meshes`:
 On the upper left panel, click on file --> import --> Wavefront (.obj) --> Select object from file path
+
 `For point clouds`:
 On the upper left panel, click on file --> import --> Wavefront (.ply) --> Select object from file path
 
@@ -14,6 +15,7 @@ Answer:
 
 `For meshes`:
 On the upper left panel, click on file --> export --> Wavefront (.obj) --> Give an object name --> Give the file path
+
 `For point clouds`:
 On the upper left panel, click on file --> export --> Wavefront (.ply) --> Give an object name --> Give the file path
 
