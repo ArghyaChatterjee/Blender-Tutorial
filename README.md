@@ -277,7 +277,9 @@ Answer:
 - 3D Point Clouds in Blender: Starter Guide [[video]](https://www.youtube.com/watch?v=DCkFhHNeSc0)
 - Download Pointcloud Assets [[sketchfab]](https://sketchfab.com/thevoidescaperoom/collections/point-cloud-b57ab4e8887b45d6b31cc8a5bec3b1f4)
 
-
-
+#### 21. How to work with Blender Python API ?
+Answer:
+- Tutorial1 [[playlist](https://www.youtube.com/watch?v=nmJqIaSZlRs&list=PLB8-FQgROBmmeCnCfuJEGzP0nH0u3tz7j&index=1)
+- Tutorial2 [[playlist]](https://www.youtube.com/watch?v=cyt0O7saU4Q&list=PLFtLHTf5bnym_wk4DcYIMq1DkjqB7kDb-&index=2)
 
 
