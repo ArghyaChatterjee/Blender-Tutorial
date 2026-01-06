@@ -78,6 +78,13 @@ Select the object --> right click --> set origin --> set origin to geometry
 
 If you want to do it more precisely, set the pivot point to Bounding Box Center; move the 3D cursor to the object (Shortcut Shift+S+2) and use the right click menu to set Origin to 3D Cursor.
 
+
+* **How to bake 2 textures into 1 for an object in blender**
+
+ Answer:
+
+ Follow the steps here in the tutorial: https://www.youtube.com/watch?v=wG6ON8wZYLc
+
 * **How to generate texture for an object in Blender ?**
 
 Answer:
