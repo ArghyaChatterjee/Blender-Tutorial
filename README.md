@@ -60,11 +60,33 @@ Answer:
 
 Select the object --> right click --> set origin --> set origin to geometry
 
-* **How to make the geometric centroid to the bounding box centroid (volumetric)?**
+* **How to make the geometric centroid to the volumetric centroid (volumetric)?**
 
 Answer:
 
 Object Mode --> Object --> Set Origin --> Origin to Center of Mass (surface)/ Origin to Center of Mass (volume)
+
+* **How to make the geometric centroid to the bounding box centroid (volumetric)?**
+
+Answer:
+
+```
+import bpy
+import mathutils
+
+obj = bpy.context.active_object
+
+for _ in range(3):
+    bbox_corners = [obj.matrix_world @ mathutils.Vector(c) for c in obj.bound_box]
+    centroid = sum(bbox_corners, mathutils.Vector()) / 8
+    obj.location -= centroid
+    bpy.ops.object.transform_apply(location=True)
+
+# Verify
+bbox_corners = [obj.matrix_world @ mathutils.Vector(c) for c in obj.bound_box]
+centroid = sum(bbox_corners, mathutils.Vector()) / 8
+print("Final centroid:", centroid)
+```
 
 * **How to make the Bounding Box Volume as the center of the object volume (0, 0, 0) in UI ?**
 
