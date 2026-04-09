@@ -66,7 +66,7 @@ Answer:
 
 Object Mode --> Object --> Set Origin --> Origin to Center of Mass (surface)/ Origin to Center of Mass (volume)
 
-* **How to make the Bounding Box Volume as the center of the object volume (0, 0, 0)?**
+* **How to make the Bounding Box Volume as the center of the object volume (0, 0, 0) in UI ?**
 
 Answer:
 
