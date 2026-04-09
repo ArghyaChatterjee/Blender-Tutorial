@@ -66,7 +66,7 @@ Answer:
 
 Object Mode --> Object --> Set Origin --> Origin to Center of Mass (surface)/ Origin to Center of Mass (volume)
 
-* **How to make the geometric centroid to the bounding box centroid (volumetric)?**
+* **How to make the geometric centroid to the bounding box centroid ?**
 
 Answer:
 
