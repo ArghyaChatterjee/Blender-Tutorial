@@ -21,6 +21,36 @@ Upper left panel, click on file --> export --> Wavefront (.obj) --> Give name --
 `For point clouds`:
 Upper left panel, click on file --> export --> Wavefront (.ply) --> Give name --> Give the file path
 
+* **How to export meshes in .ply in blender?**
+
+Answer:
+`First Import`:
+Upper left panel, click on file --> import --> Wavefront (.obj) 
+
+`Then Export`:
+Upper left panel, click on file --> export --> Stanford (.ply) --> Give name --> Give the file path
+
+`Edit the file to add texture`:
+
+Open it in any editor and replace the upper part like this to add texture:
+```
+ply
+format ascii 1.0
+comment TextureFile obj_000007.png
+element vertex 20784
+property float x
+property float y
+property float z
+property float nx
+property float ny
+property float nz
+property float texture_u
+property float texture_v
+element face 35172
+property list uchar int vertex_indices
+end_header
+```
+
 * **How to grab and change an object's position?**
 
 Answer:
