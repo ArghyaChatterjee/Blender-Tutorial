@@ -24,6 +24,7 @@ Upper left panel, click on file --> export --> Wavefront (.ply) --> Give name --
 * **How to export meshes in .ply in blender?**
 
 Answer:
+
 `First Import`:
 Upper left panel, click on file --> import --> Wavefront (.obj) 
 
