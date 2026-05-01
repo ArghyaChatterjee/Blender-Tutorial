@@ -406,6 +406,7 @@ FoundationPose suggestion:
 * **How to check object axis in Blender**
 
 Answer:
+
 Object axis may be different than the blender viewport axis. To verify, in blender, enable Object Axes:
 
 ```
