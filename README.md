@@ -404,8 +404,12 @@ FoundationPose suggestion:
 ```
 
 * **How to check object axis in Blender**
-Here is a visual (object axis is different from viewport axis):
 
+Answer:
+To verify, in Blender enable Object Axes:
+```
+Object Properties → Viewport Display → Axis
+```
 <div align="center">
   <img src="media/symmetry_in_blender.png" width="800">
 </div>
