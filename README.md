@@ -371,4 +371,41 @@ Answer:
 - Tutorial1 [[playlist]](https://www.youtube.com/watch?v=nmJqIaSZlRs&list=PLB8-FQgROBmmeCnCfuJEGzP0nH0u3tz7j&index=1)
 - Tutorial2 [[playlist]](https://www.youtube.com/watch?v=cyt0O7saU4Q&list=PLFtLHTf5bnym_wk4DcYIMq1DkjqB7kDb-&index=2)
 
+For example, if you want to calculate the symmetric axis of a symmetric object. Open blender from CLI:
+```
+$ blender
+```
+Then, 
+```
+Import --> obj  
+```
+Go to `Scripting` tab and paste the code we have inside `scripts/calculate_symmetry.py`. Run the script and see the result on the CLI. Here is an example result after running the script for the `trash can`:
+```
+==============================
+Symmetry result for: trash_can
+==============================
+Object size: 1.110900
+Tolerance: 0.033327 (3.0%)
 
+Axis: X
+  180 symmetry: False | p95: 0.115346, max: 0.247297
+  full symmetry: False | worst p95: 0.181549
+
+Axis: Y
+  180 symmetry: True | p95: 0.013700, max: 0.031231
+  full symmetry: True | worst p95: 0.018639
+
+Axis: Z
+  180 symmetry: False | p95: 0.115499, max: 0.245987
+  full symmetry: False | worst p95: 0.171981
+
+FoundationPose suggestion:
+"symmetry_axes": ['y_full']
+```
+
+* **How to check object axis in Blender**
+Here is a visual (object axis is different from viewport axis):
+
+<div align="center">
+  <img src="media/symmetry_in_blender.png" width="800">
+</div>
