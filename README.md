@@ -119,6 +119,19 @@ centroid = sum(bbox_corners, mathutils.Vector()) / 8
 print("Final centroid:", centroid)
 ```
 
+* **How to mirror meshes in blender?**
+
+Answer:
+
+- Select the hand.
+- Press **Shift + D**, then **Enter** (duplicate).
+- Mirror the duplicate:
+
+   * `S` → `X` → `-1` → `Enter` (or Y if needed).
+- Verify it looks like the right hand.
+- Delete the original left hand (`X` → **Delete**).
+
+
 * **How to make the Bounding Box Volume as the center of the object volume (0, 0, 0) in UI ?**
 
 Answer:
